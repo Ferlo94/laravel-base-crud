@@ -23,7 +23,7 @@ class ProductsTableSeeder extends Seeder
             $newProduct->thumb = $fumetto['thumb']; 
             $newProduct->price = $fumetto['price'];
             $newProduct->series = $fumetto['series'];
-            $newProduct->sale_data = $fumetto['sale_date'];
+            $newProduct->sale_date = $fumetto['sale_date'];
             $newProduct->type = $fumetto['type'];
             
             $newProduct->save();
