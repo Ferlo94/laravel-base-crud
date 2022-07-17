@@ -6,9 +6,15 @@
 
 @section('page-content')
 <h1>{{$product->title}}</h1>
+<h6>{{$product->type}}</h6>
 <img src="{{$product->thumb}}" alt="">
+<hr>
+<h5>{{$product->price}}</h5>
+<hr>
 <div>
     {!!$product->description!!}
 </div>
+<br>
+<h6>Data di uscita: {{$product->sale_date}}</h6>
 @endsection
         
