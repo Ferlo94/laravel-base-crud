@@ -22,10 +22,12 @@
             <tr>
                 <td>{{$product->id}}</td>
                 <td>{{$product->title}}</td>
-                <td><img src="{{$product->thumb}}"></td>
+                <td><img width= "100" src="{{$product->thumb}}"></td>
                 <td>{{$product->description}}</td>
                 <td>{{$product->price}}</td>
-                <td></td>
+                <td>
+                    <a type="button" class="btn btn-warning" href="{{route('products.show', $product->id)}}">Acquista Ora</a>
+                </td>
             </tr>
                 
             @endforeach
