@@ -33,8 +33,8 @@
         </div>
 
         <div class="mb-3">
-            <label for="type" class="form-label">Tipologia Film</label>
-            <select class="form-select" id="type" name="type">
+            <label for="series" class="form-label">Tipologia Film</label>
+            <select class="form-select" id="series" name="series">
                 <option selected>SELEZIONA UNA OPZIONE</option>
                 <option value="1">comic book</option>
                 <option value="2">graphic novel</option>
