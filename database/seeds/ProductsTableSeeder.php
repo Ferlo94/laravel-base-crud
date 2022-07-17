@@ -26,6 +26,7 @@ class ProductsTableSeeder extends Seeder
             $newProduct->sale_date = $fumetto['sale_date'];
             $newProduct->type = $fumetto['type'];
             
+            
             $newProduct->save();
         }
     }
