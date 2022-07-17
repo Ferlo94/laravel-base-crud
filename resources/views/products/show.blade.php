@@ -16,5 +16,6 @@
 </div>
 <br>
 <h6>Data di uscita: {{$product->sale_date}}</h6>
+<a type="button" class="btn btn-warning" href="{{route('products.index')}}">Torna alla HOME</a>
 @endsection
         
